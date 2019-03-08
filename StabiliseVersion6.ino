@@ -115,5 +115,5 @@ void loop() {
 
   loopCounter = loopCounter + 1;//incement loop counter
   Serial.println(correctedPitchOutput);//debugging 
-  while (micros() - timer < 4000);//wait until 4 milliseconfs have happened
+  while (micros() - timer < 4000);//wait until 4 milliseconds have happened
 }
